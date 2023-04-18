@@ -472,7 +472,7 @@
   display: flex;
   justify-content: space-between;
   flex: 0 0 100%;
-  background-image: url(../src/img/ellipse.png);
+  background-image: url(../img/ellipse.png);
   background-position: bottom;
 }
 
@@ -505,7 +505,7 @@
   display: flex;
   justify-content: space-between;
   flex: 0 0 100%;
-  background-image: url(../src/img/slide2.jpg);
+  background-image: url(src/img/slide2.jpg);
   background-size: cover;
 }
 
@@ -585,7 +585,7 @@
     position: relative;
     border-radius: 24px;
     max-height: 400px;
-    background-image: url(../src/img/slide2-mobile.jpg);
+    background-image: url(../../img/slide2-mobile.jpg);
     background-position: bottom;
   }
   .second-slide__text-info {

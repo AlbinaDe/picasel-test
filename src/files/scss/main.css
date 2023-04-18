@@ -505,7 +505,7 @@
   display: flex;
   justify-content: space-between;
   flex: 0 0 100%;
-  background-image: url(../src/img/slide2.jpg);
+  background-image: url(src/img/slide2.jpg);
   background-size: cover;
 }
 

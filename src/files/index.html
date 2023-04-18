@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetCare</title>
+    <link  rel="stylesheet" href="/src/files/scss/main.css" />
+    <script src="script.js" type="module"></script>
+
+</head>
+<body>
+    <header>
+        <div id="Главная" class="navbar">
+            <div class="navbar__container">
+                <div class="navbar__logo">
+                    <svg class="svg--pawprint">
+                        <use href="/src/icons/sprite.svg#pawprint"></use>
+                    </svg>
+                    <svg class="svg--pawprint-mini">
+                        <use href="/src/icons/sprite.svg#pawprint-mini"></use>
+                    </svg>
+                    <p class="navbar__logo--text">PetCare</p>
+                </div>
+                <div class="navbar__menu-mobile">
+                    <svg class="svg--menu">
+                        <use href="/src/icons/sprite.svg#menu"></use>
+                    </svg>
+                </div>
+                <div class="navbar__menu">
+                    <a href="#!" class="navbar__menu--link">Новости</a>
+                    <a href="#!" class="navbar__menu--link">О нас</a>
+                    <a href="#!" class="navbar__menu--link">Блог</a>
+                    <a href="#!" class="navbar__menu--link">Услуги</a>
+                    <a href="#!" class="navbar__menu--link">Контакты</a>
+                </div>
+                <div class="navbar__media">
+                    <svg class="svg--media">
+                        <use href="/src/icons/sprite.svg#insta"></use>
+                    </svg>
+                    <svg class="svg--media">
+                        <use href="/src/icons/sprite.svg#telegram"></use>
+                    </svg>
+                    <svg class="svg--media">
+                        <use href="/src/icons/sprite.svg#vk"></use>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- SWIPER -->
+            <div class="swiper mySwiper">
+                <div class="swiper-buttons">
+                    <div class="swiper-btn swiper-btn--prev">
+                        <svg class="swiper-btn__icon">
+                            <use href="/src/icons/sprite.svg#arrow-left"></use>
+                        </svg>
+                    </div>
+                    <div class="swiper-btn swiper-btn--next">
+                        <svg class="swiper-btn__icon">
+                            <use href="/src/icons/sprite.svg#arrow-right"></use>
+                        </svg>
+                    </div>
+                </div>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide first-slide">
+                            <div class="first-slide__text-info">
+                                <p class="first-slide__text-info--title">Мы заботимся<br>о ваших питомцах</p>
+                                <p class="first-slide__text-info--desc">Записывайтесь в ветклиники<br>
+                                    и консультируйтесь с ветеринарным<br>
+                                    врачом онлайн
+                                </p>
+                                <a href="#footer">
+                                    <button class="button button--gradient">
+                                        <p class="button__text">Связаться с нами</p>
+                                    </button>
+                                </a>
+                            </div>
+                            <img class="first-slide__img" src="/src/img/cat.png" />
+                        </div>
+                        <div class="swiper-slide second-slide">
+                            <div class="second-slide__text-info">
+                                <p class="second-slide__text-info--title">Закажите план заботы</p>
+                                <p class="second-slide__text-info--desc">Регулярная доставка специально подобранного корма и других товаров для кошек и собак</p>
+                                <p class="second-slide__text-info--price">от 1299 ₽/мес</p>
+                                <button class="button button--blue modal__open second-slide__button">
+                                    <p class="button__text">Подобрать план</p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+            </div>
+
+    <!-- CARDS -->
+                <div class="card-container">
+                    <div class="card-wrapper">
+                        <div class="card-first">
+                            <div class="card__content card__content--first">
+                                <div class="card__text">
+                                    <p class="card-first--title">Сколько стоит</br> онлайн-консультация</br>с терапевтом? </p>
+                                </div>
+                                <div class="card-first__arrow">
+                                    <div class="card-first__arrow--line"></div>
+                                    <svg class="card-first__arrow--icon"">
+                                        <use href="/src/icons/sprite.svg#arrow-right"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="card-first__back-wrapper">
+                                <div class="card-first__back">
+                                    <p class="card-first__back--title">Онлайн-консультация<br>с терапевтом</p>
+                                    <p class="card-first__back--price">от 399 ₽</p>
+                                    <div class="card-first__back--item item">
+                                        <div class="item-round">
+                                            <svg class="svg--completion">
+                                                <use href="/src/icons/sprite.svg#completion"></use>
+                                            </svg>
+                                            <svg class="svg--completion-mini">
+                                                <use href="/src/icons/sprite.svg#completion-mini"></use>
+                                            </svg>
+                                        </div>
+                                        <p class="item-text">Аудио, видео или чат</p>
+                                    </div>
+                                    <div class="card-first__back--item item">
+                                        <div class="item-round">
+                                            <svg class="svg--completion">
+                                                <use href="/src/icons/sprite.svg#completion"></use>
+                                            </svg>
+                                            <svg class="svg--completion-mini">
+                                                <use href="/src/icons/sprite.svg#completion-mini"></use>
+                                            </svg>
+                                        </div>
+                                        <p class="item-text">Продолжительность до 60 минут</p>
+                                    </div>
+                                    <div class="card-first__back--item item">
+                                        <div class="item-round">
+                                            <svg class="svg--completion">
+                                                <use href="/src/icons/sprite.svg#completion"></use>
+                                            </svg>
+                                            <svg class="svg--completion-mini">
+                                                <use href="/src/icons/sprite.svg#completion-mini"></use>
+                                            </svg>
+                                        </div>
+                                        <p class="item-text">Подробный отчет после консультации: что сделать сейчас, чтобы стало лучше</p>
+                                    </div>
+                                    <button class="button button--blue">
+                                        <p class="button__text">Начать консультацию</p>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-wrapper card-wrapper--hidden">
+                        <div class="card-second">
+                            <div class="card__content">
+                            <div class="card__text">
+                                <p class="card__text--title">Самые болезненные породы кошек: топ-5</p>
+                                <p class="card__text--desc">Среди кошачьих пород есть несколько, отличающихся слабым здоровьем.</p>
+                            </div>
+                            <div class="card-second__articles">
+                                <a class="card-second__articles--text" href="#!">Все статьи о кошках</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+    <!-- MODALS -->
+    <div class="modal">
+            <div class="modal__content">
+                <svg class="modal__close svg--cross">
+                    <use href="/src/icons/sprite.svg#cross"></use>
+                </svg>
+                <p class="modal__title">
+                    Чтобы подобрать план, необходимо заполнить форму ниже
+                </p>
+                <p class="modal__text">У меня:</p>
+                <div class="modal__radio-container">
+                    <div class="modal-radio">
+                        <label>
+                            <input type="radio" name="radio">
+                            <div class="modal-radio__label">
+                               <p class="modal-radio__text">Кошка</p>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="modal-radio">
+                        <label>
+                            <input type="radio" name="radio">
+                            <div class="modal-radio__label">
+                               <p class="modal-radio__text">Собака</p>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <form>
+                    <div class="modal__input-container">
+                        <div class="input__wrapper">
+                            <input class="input__field" placeholder="Имя питомца" type="text" />
+                            <div class="input__bottom-line"></div>
+                        </div>
+                        <div class="input__wrapper">
+                            <input class="input__field" placeholder="Порода питомца *" type="text" required/>
+                            <div class="input__bottom-line"></div>
+                        </div>
+                        <div class="input__wrapper">
+                            <input class="input__field" placeholder="Возраст питомца *" type="number" required/>
+                            <div class="input__bottom-line"></div>
+                        </div>
+                        <div class="input__wrapper">
+                            <input class="input__field" placeholder="Ваш номер телефона" type="tel" />
+                            <div class="input__bottom-line"></div>
+                        </div>
+                        <div class="input__wrapper">
+                            <input class="input__field" placeholder="Ваш email *" type="email" required/>
+                            <div class="input__bottom-line"></div>
+                        </div>
+                        <div class="modal__button">
+                            <button type="submit" class="button button--blue modal__send">
+                                <p class="button__text">Отправить</p>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+        </div>
+    </div>
+    <div class="modal-menu">
+        <div class="modal-menu__content">
+            <svg class="modal__close-mobile svg--cross">
+                <use href="/src/icons/sprite.svg#cross"></use>
+            </svg>
+                <a href="#!" class="mobile-link">Новости</a>
+                <a href="#!" class="mobile-link">О нас</a>
+                <a href="#!" class="mobile-link">Блог</a>
+                <a href="#!" class="mobile-link">Услуги</a>
+                <a href="#!" class="mobile-link">Контакты</a>
+        </div>
+    </div>
+</body>
+    <!-- FOOTER -->
+<footer id="footer">
+    <div class="footer__content">
+        <div class="footer__privacy footer__privacy--mobile">
+            ©2021 PetCare. Все права защищены
+        </div>
+        <div class="footer__info">
+            <p class="medium medium--24">8 (800) 999-88-77</p>
+            <p class="medium medium--24">info@petcare.com</p>
+        </div>
+        <div class="footer__privacy">
+            ©2021 PetCare. Все права защищены
+        </div>
+        <a class="footer__logo--link" href="#Главная">
+            <div class="footer__logo">
+                <svg class="svg--pawprint">
+                    <use href="/src/icons/sprite.svg#pawprint"></use>
+                </svg>
+                <svg class="svg--pawprint-mini">
+                    <use href="/src/icons/sprite.svg#pawprint-mini"></use>
+                </svg>
+                <p class="footer__logo--text">PetCare</p>
+            </div>
+        </a>
+    </div>
+</footer>
+</html>

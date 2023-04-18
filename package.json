@@ -1,10 +1,13 @@
 {
   "name": "gulp",
   "version": "1.0.0",
+   "homepage": "https://albinade.github.io/picasel-test/",
   "description": "",
   "main": "gulpfile.js",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+     "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "build": "set \"INLINE_RUNTIME_CHUNK=false\" && react-scripts build",
